@@ -1,0 +1,15 @@
+#login {
+  form {
+    padding: 30px 12px;
+    background: $color-light;
+    min-width: 400px;
+    max-height: 300px;
+    overflow: auto;
+    border-radius: 6px;
+    box-shadow: 1px 1px 10px rgba($color-text, .5);
+    text-align: center;
+    @media screen and (max-width: 767px) {
+      min-width: 300px;
+    }
+  }
+}
